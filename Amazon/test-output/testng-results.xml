@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-21T19:02:22Z" name="Default suite" finished-at="2023-07-21T19:03:09Z" duration-ms="46961">
+    <groups>
+    </groups>
+    <test started-at="2023-07-21T19:02:22Z" name="Default test" finished-at="2023-07-21T19:03:09Z" duration-ms="46961">
+      <class name="automation.LanguageVerificationTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:automation.LanguageVerificationTest@19c65cdc]" started-at="2023-07-22T00:32:22Z" name="setup" finished-at="2023-07-22T00:32:58Z" duration-ms="36470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="LanguageVerificationTest()[pri:0, instance:automation.LanguageVerificationTest@19c65cdc]" started-at="2023-07-22T00:32:58Z" name="LanguageVerificationTest" finished-at="2023-07-22T00:32:58Z" duration-ms="213" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Language verification failed. expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Language verification failed. expected [true] but found [false]at org.testng.Assert.fail(Assert.java:96)at org.testng.Assert.failNotEquals(Assert.java:776)at org.testng.Assert.assertTrue(Assert.java:44)at pages.LanguageVerification.verifySelectedLanguage(LanguageVerification.java:24)at automation.LanguageVerificationTest.LanguageVerificationTest(LanguageVerificationTest.java:9)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)at java.base/java.lang.reflect.Method.invoke(Method.java:568)at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)at org.testng.internal.Invoker.invokeMethod(Invoker.java:571)at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:707)at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:979)at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)at org.testng.TestRunner.privateRun(TestRunner.java:648)at org.testng.TestRunner.run(TestRunner.java:505)at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)at org.testng.SuiteRunner.run(SuiteRunner.java:364)at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)at org.testng.TestNG.runSuitesLocally(TestNG.java:1116)at org.testng.TestNG.runSuites(TestNG.java:1028)at org.testng.TestNG.run(TestNG.java:996)at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LanguageVerificationTest -->
+        <test-method is-config="true" signature="tear_down()[pri:0, instance:automation.LanguageVerificationTest@19c65cdc]" started-at="2023-07-22T00:32:59Z" name="tear_down" finished-at="2023-07-22T00:33:09Z" duration-ms="10120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear_down -->
+      </class> <!-- automation.LanguageVerificationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
